@@ -4,7 +4,7 @@ import menu from '@/assets/menu.ts'
 const menuItems = menu.menu
 </script>
 <template>
-  <header class="flex justify-between items-center">
+  <header class="flex justify-between items-center max-w-[1200px] m-auto py-[22px]">
     <div class="flex gap-[10px]">
       <RouterLink to="/">
         <img src="./../assets/logo.png" alt="logo" />
